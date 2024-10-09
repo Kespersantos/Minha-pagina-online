@@ -4,19 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  /*
-  background-image: url(./assets/v627-aew-04-technologybackground.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
-/* background:color image repeat position/size */
-  background: url(./assets/bg-desktop.jpg) no-repeat top center/cover;
+  background: url(./assets/v627-aew-04-technologybackground.jpg) no-repeat top
+    center/cover;
 }
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-desktop.jpg);
+  --bg-url: url(./assets/v627-aew-04-technologybackground.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -26,7 +20,7 @@ body {
 
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-desktop-light.jpg);
+  --bg-url: url(./assets/fundo-branco.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -43,7 +37,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
