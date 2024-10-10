@@ -3,10 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: url(./assets/v627-aew-04-technologybackground.jpg) no-repeat top
-    center/cover;
-}
 
 :root {
   --text-color: white;
@@ -43,6 +39,8 @@ body * {
   margin: 56px auto 0px;
   padding: 0 24px;
 }
+
+/*profile*/
 #profile {
   text-align: center;
   padding: 24px;
@@ -56,6 +54,7 @@ body * {
   margin-top: 8px;
 }
 
+/*switch*/
 #switch {
   position: relative;
   width: 64px;
@@ -74,7 +73,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-out 0.2s;
+  animation: slide-out 0.4s;
 }
 
 .light #switch button {
